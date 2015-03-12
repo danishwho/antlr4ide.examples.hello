@@ -16,6 +16,8 @@ Note this has to come before the `-vmargs` entry.
 2. In the console window type `hello world` and then either Control-D (mac/nix) or Ctrl-Z (Windows)
 3. Antlr should respond with `(r hello world)`
 
+There's also a sample [unit test](src/antlr4ide/examples/hello/tests/TestHelloParser.java).
+
 #Creating the project
 The project should build and run as is.  However, in case it's useful, here are the steps I followed to create it.
 

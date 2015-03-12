@@ -26,7 +26,7 @@ public class ParserMain {
         // create a parser that feeds off the tokens buffer
         HelloParser parser = new HelloParser(tokens);
 
-        ParseTree tree = parser.r(); // begin parsing at 'r' rule
+        ParseTree tree = parser.r(); // begin parsing at ' rule
         System.out.println(tree.toStringTree(parser)); // print LISP-style tree
 	}
 
